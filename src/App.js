@@ -8,11 +8,12 @@ import Resume from "./components/Resume";
 import FunctionEvent from "./components/FunctionEvent";
 import ClassEvent from "./components/ClassEvent";
 import FunctionalCounter from "./components/FunctionalCounter";
+import Form from "./components/Form";
 
 function App() {
   return (
     <div className="App">
-      <FunctionalCounter />
+      <Form />
     </div>
   );
 }
