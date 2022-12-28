@@ -9,12 +9,15 @@ import "./App.css";
 // import ClassEvent from "./components/ClassEvent";
 // import FunctionalCounter from "./components/FunctionalCounter";
 // import Form from "./components/Form";
-import Todo from "./components/Todo";
+// import Todo from "./components/Todo";
+// import InlineComponent from "./components/InlineComponent";
+// import StylesheetComponent from "./components/StylesheetComponent";
+import ModuleComponent from "./components/ModuleComponent";
 
 function App() {
   return (
     <div className="App">
-      <Todo />
+      <ModuleComponent />
     </div>
   );
 }
